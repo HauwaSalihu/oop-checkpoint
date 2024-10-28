@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP CART</title>
+  </head>
+  <body>
+    <main class="container m-20">
+      <!-- cart section -->
+      <section class="container mx-auto w-96" id="cart-contianer">
+        <p class="tracking-wider">Home/Cart</p>
+
+        <h3 id="total-cart-items" class="text-2xl font-bold"></h3>
+        <div id="display-cart-items" class="shadow p-4 border rounded-lg w-fit">
+          <div class="product-card flex gap-10">
+            <div
+              class="shadow-lg flex items-center justify-between p-5 font-semibold"
+            >
+              <h5>Product</h5>
+              <h5>Price</h5>
+              <h5>Quantity</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Total Cart Section -->
+        <div class="container border p-5 mt-10">
+          <h5 class="font-medium">Cart Total</h5>
+          <span class="flex justify-between">
+            <p>Total:</p>
+            <p id="total-price">N40,000</p>
+            <!-- <h4 id="total-price" class="text-2xl font-bold">100,000</h4> -->
+          </span>
+          <button ty class="bg-red-400 p-2 rounded-lg items-end">
+            CheckOut
+          </button>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/3bb03cee7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
